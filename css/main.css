@@ -15,10 +15,13 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 body{
-  background-color: #f8f9fa;
+  background: rgb(113,75,103);
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  display:flex;
 }
 
 h1 {
@@ -30,6 +33,9 @@ h1 {
   margin-right: auto;
   border: 4px gray double;
   background-color : #e9ecef;
+  min-width: 500px;
+  max-width: 800px;
+  padding: 20px;
 }
 
 p {
@@ -65,3 +71,24 @@ h2 {
 h3 {
 
 }
+
+
+.left_column {
+  flex-grow:1;
+
+}
+
+.right_column {
+  flex-grow:1;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  max-height: 200px;
+}
+
+.screenshot {
+  width: 100%;
+}
+
